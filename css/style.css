@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("..//fonts/TTNorms-Light.otf");
+}
+body {
+  margin: 0;
+  font-family: "TT norms";
+}
+.services {
+  padding-bottom: 90px;
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0px 0px 12px 12px;
+}
+.container {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexitem1,
+.flexitem2 {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 415px;
+}
+.icon {
+  width: 92px;
+  height: 92px;
+  background: #ffffff;
+  border-radius: 24px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.shopping {
+  background: url(..//img/1.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+.bag {
+  background: url(..//img/2.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.crowd {
+  background: url(..//img/3.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.collaboration {
+  background: url(..//img/4.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.safety {
+  background: url(..//img/5.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.lawyer {
+  background: url(..//img/6.png) no-repeat center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.item h3 {
+  color: #24a3ff;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.item p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0;
+}
+.flexitem1 :nth-child(2) :nth-child(3) {
+  margin-bottom: 58px;
+}
