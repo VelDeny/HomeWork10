@@ -9,6 +9,11 @@ body {
   margin: 0;
   font-family: "TT norms";
 }
+.container {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .services {
   padding-bottom: 90px;
   background: linear-gradient(
@@ -19,18 +24,16 @@ body {
   );
   border-radius: 0px 0px 12px 12px;
 }
-.container {
-  width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.flexitem1,
-.flexitem2 {
+.flexitem {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .item {
-  width: 415px;
+  width: 410px;
+}
+.item:nth-child(2) {
+  margin-bottom: 58px;
 }
 .icon {
   width: 92px;
@@ -101,6 +104,142 @@ body {
   line-height: 26px;
   margin-top: 0;
 }
-.flexitem1 :nth-child(2) :nth-child(3) {
-  margin-bottom: 58px;
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fon {
+  height: 120px;
+  width: 25%;
+  border: 1px solid #ffffff;
+  background: #1c4280;
+}
+.partner :nth-child(2) {
+  background: #143646;
+}
+.partner :nth-child(3) {
+  background: #f48b30;
+}
+.partner :nth-child(4) {
+  background: #9e4dc3;
+}
+.partner :nth-child(5) {
+  background: #fd9339;
+}
+.partner :nth-child(6) {
+  background: #e2e2e4;
+}
+.partner :nth-child(7) {
+  background: #c71c36;
+}
+.partner :nth-child(8) {
+  background: #dcf3f9;
+}
+.partner :nth-child(9) {
+  background: #eaeaea;
+}
+.partner :nth-child(10) {
+  background: #282240;
+}
+.partner :nth-child(11) {
+  background: #1d4568;
+}
+.partner :nth-child(12) {
+  background: #000000;
+}
+.logo1 {
+  background: url(..//img/Hillel-Logo-OneLine-White-Uk.png) no-repeat center;
+  width: 217px;
+  height: 48px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo2 {
+  background: url(..//img/image.png) no-repeat center;
+  width: 199px;
+  height: 32px;
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo3 {
+  background: url(..//img/logo.png) no-repeat center;
+  width: 179px;
+  height: 44px;
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo4 {
+  background: url(..//img/retina_2.png) no-repeat center;
+  width: 180px;
+  height: 42px;
+  margin-top: 39px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo5 {
+  background: url(..//img/Frame.png) no-repeat center;
+  width: 174px;
+  height: 44px;
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo6 {
+  background: url(..//img/Frame_1.png) no-repeat center;
+  width: 187px;
+  height: 48px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo7 {
+  background: url(..//img/clickky.png) no-repeat center;
+  width: 138px;
+  height: 61px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo8 {
+  background: url(..//img/ecolease.png) no-repeat center;
+  width: 146px;
+  height: 76px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo9 {
+  background: url(..//img/image_1.png) no-repeat center;
+  width: 182px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo10 {
+  background: url(..//img/icon-logo.png) no-repeat center;
+  width: 181px;
+  height: 38px;
+  margin-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo11 {
+  background: url(..//img/logo_2.png) no-repeat center;
+  width: 189px;
+  height: 46px;
+  margin-top: 37px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo12 {
+  background: url(..//img/logoM.png) no-repeat center;
+  width: 152px;
+  height: 95px;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
 }
