@@ -39,57 +39,28 @@ body {
   width: 92px;
   height: 92px;
   background: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 24px;
-  position: relative;
   margin-bottom: 20px;
 }
 .shopping {
-  background: url(..//img/1.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 15px;
+  background-image: url(..//img/1.png);
 }
 .bag {
-  background: url(..//img/2.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  background-image: url(..//img/2.png);
 }
 .crowd {
-  background: url(..//img/3.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  background-image: url(..//img/3.png);
 }
 .collaboration {
-  background: url(..//img/4.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  background-image: url(..//img/4.png);
 }
 .safety {
-  background: url(..//img/5.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  background-image: url(..//img/5.png);
 }
 .lawyer {
-  background: url(..//img/6.png) no-repeat center;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  background-image: url(..//img/6.png);
 }
 .item h3 {
   color: #24a3ff;
